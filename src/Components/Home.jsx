@@ -79,6 +79,14 @@ const Home = () => {
         <textarea className='preview' rows={10} cols={100} readOnly value={text} />
       </div>
       <ToastContainer />
+      <iframe
+      src="https://app.gpt-trainer.com/widget/b1f22ce7d1884e5eb1b6be414d186d94"
+      width="100%"
+      height="500px"
+      frameborder="0"
+    allow="clipboard-read; clipboard-write"
+></iframe>
+
     </div>
   )
 }
